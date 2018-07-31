@@ -18,7 +18,7 @@ Author: themehippo.com
 body {
     font-family : 'Hind', sans-serif;
     font-size   : 15px;
-    line-height : 1.8em;
+    line-height : 1.6em;
     color       : #3d3d50;
     font-weight : 300;
     background  : #ffffff;
@@ -35,25 +35,25 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size   : 26px;
-    line-height : 1.8em;
+    line-height : 1.6em;
     font-weight : 700;
     }
 
 h2 {
     font-size   : 18px;
-    line-height : 1.8em;
+    line-height : 1.6em;
     font-weight : 700;
     }
 
 h3 {
-    font-size   : 16px;
-    line-height : 1.8em;
+    font-size   : 17px;
+    line-height : 1.6em;
     font-weight : 500;
     }
 
 h4 {
-    font-size   : 15px;
-    line-height : 1.8em;
+    font-size   : 16px;
+    line-height : 1.6em;
     font-weight : 500;
     }
 
@@ -467,7 +467,7 @@ button:focus,
     }
 
 .content-item h3 {
-    margin         : 0 0 10px;
+    margin         : 0 0 6px;
     line-height    : 1;
     font-weight    : bold;
     text-transform : uppercase;
@@ -479,13 +479,22 @@ button:focus,
     }
 
 .content-item p {
-    line-height: 1
-    padding-top: 5px;
+    line-height: 1.6em;
+    padding-top: 4px;
+    margin-bottom: 0px;
+}
+
+.content-item .bottom-margin {
+    margin-bottom: 0px;
 }
 
 .content-item small {
     color : #888888;
     }
+
+.content-item .location {
+    margin-bottom: 10px;
+}
 
 /*-------------------
  * Contact
